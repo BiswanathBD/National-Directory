@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-dark.png"
+      type="image/x-icon"
+    />
+    <title>Govt Emergency Service</title>
+    <link rel="stylesheet" href="./tailwind.config.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind play cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      .inter {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body class="max-w-[1160pxpx] bg-[#41ff6b1a] mx-auto inter">
+  <nav class="px-8 bg-white py-4 flex justify-between items-center shadow">
+    <div class="flex items-center gap-2 font-extrabold text-[#006747]">
+      <img class="w-12 h-12" src="./assets/logo.png" alt="" />
+      <div class="hidden sm:block">
+        <h4>Emergency</h4>
+        <h4>Service</h4>
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <button class="flex items-center font-semibold bg-[#41ff6b1a] px-6 py-3 rounded-full hover:bg-gray-100"><span id="liked" class="font-bold">0</span> <i class="fa-solid fa-heart text-red-500 text-2xl ml-2"></i></button>
+
+      <button class="flex items-center font-semibold bg-[#41ff6b1a] px-6 py-3 rounded-full hover:bg-gray-100"><span id="coin" class="font-bold">100</span> <img class="w-6 h-6 ml-3 -mt-1" src="./assets/coin.png" alt=""></button>
+
+      <button class="text-white font-semibold bg-[#00A63E] px-6 py-3 rounded-full hover:bg-[#00a63df0]"><span id="copied-num">0</span> Copy
+    </div>
+  </nav>
+
+  <section class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col gap-2 items-center p-5 mb-6">
+<img class="w-20" src="./assets/logo-dark.png" alt="">
+<h1 class="text-4xl text-white font-bold text-center">Emergency Service Directory</h1>
+<p class="text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+  </section>
+
+    <!-- contact-call container -->
+  <section class="grid grid-cols-4 mx-6 mb-6">
+
+    <!-- contact section -->
+    <aside class="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="p-8 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
+        <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/emergency.png" alt="">
+        <h4 class="text-xl font-bold mt-4">National Emergency Number</h4>
+        <p class="text-gray-500">National Emergency</p>
+        <h1 id="Number" class=" font-bold text-3xl mt-6">999</h1>
+        <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">All</p>
+        <div class="grid sm:grid-cols-2 gap-2">
+          <button id="copy-btn-national" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button id="call-btn-national" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
+        </div>
+      </div>
+
+      <div class="p-8 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
+        <img class="w-12 p-2 bg-[#DFEFFF] rounded-2xl" src="./assets/police.png" alt="">
+        <h4 class="text-xl font-bold mt-4">Police Helpline Number</h4>
+        <p class="text-gray-500">Police</p>
+        <h1 id="Number" class=" font-bold text-3xl mt-6">999</h1>
+        <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Police</p>
+        <div class="grid sm:grid-cols-2 gap-2">
+          <button id="copy-btn-police" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button id="call-btn-police" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
+        </div>
+      </div>
+
+      <div class="p-8 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
+        <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/fire-service.png" alt="">
+        <h4 class="text-xl font-bold mt-4">Fire Service Number</h4>
+        <p class="text-gray-500">Fire Service</p>
+        <h1 id="Number" class=" font-bold text-3xl mt-6">999</h1>
+        <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Fire</p>
+        <div class="grid sm:grid-cols-2 gap-2">
+          <button id="copy-btn-fire" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button id="call-btn-fire" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- call history -->
+     <aside>
+
+     </aside>
+  </section>
+</body>
+</html>
