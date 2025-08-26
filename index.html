@@ -33,19 +33,21 @@
   </head>
 
   <body class="max-w-[1500px] bg-[#41ff6b1a] mx-auto inter">
-  <nav class="px-8 bg-white py-4 flex justify-between items-center shadow">
-    <div class="flex items-center gap-2 font-extrabold text-[#006747]">
+
+  <nav class="px-2 md:px-8 bg-white py-4 sm:flex justify-between items-center shadow">
+    <div class="flex justify-center items-center gap-2 font-extrabold text-[#006747]">
       <img class="w-12 h-12" src="./assets/logo.png" alt="" />
-      <div class="hidden sm:block">
+      <div>
         <h4>Emergency</h4>
         <h4>Service</h4>
       </div>
     </div>
 
-    <div class="flex gap-4">
-      <button class="flex items-center font-semibold bg-[#41ff6b1a] px-6 py-3 rounded-full hover:bg-gray-100"><span id="liked" class="font-bold">0</span> <i class="fa-solid fa-heart text-red-500 text-2xl ml-2"></i></button>
+    <div class="flex justify-between gap-2 mt-2 sm:mt-0 sm:gap-4">
 
-      <button class="flex items-center font-semibold bg-[#41ff6b1a] px-6 py-3 rounded-full hover:bg-gray-100"><span id="coin" class="font-bold">100</span> <img class="w-6 h-6 ml-3 -mt-1" src="./assets/coin.png" alt=""></button>
+      <button class="flex justify-center items-center font-semibold bg-[#41ff6b1a] px-6 sm:py-3 rounded-full hover:bg-gray-100"><span id="liked" class="font-bold">0</span> <i class="fa-solid fa-heart text-red-500 text-2xl ml-2"></i></button>
+
+      <button class="flex  items-center font-semibold bg-[#41ff6b1a] px-6 py-3 rounded-full hover:bg-gray-100"><span id="coin" class="font-bold">100</span><img class="w-6 h-6 ml-3 -mt-1" src="./assets/coin.png" alt=""></button>
 
       <button class="text-white font-semibold bg-[#00A63E] px-6 py-3 rounded-full hover:bg-[#00a63df0]"><span id="copied-num">0</span> Copy
     </div>
@@ -58,7 +60,7 @@
   </section>
 
     <!-- contact-call container -->
-  <section class="grid grid-cols-4 gap-6 mx-6 mb-6">
+  <section class="flex flex-col-reverse lg:grid grid-cols-4 gap-6 mx-6 mb-6">
 
     <!-- contact section -->
     <aside class="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
