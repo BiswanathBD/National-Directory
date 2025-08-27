@@ -161,3 +161,63 @@ callBtnGovt.addEventListener("click", function (e) {
   callEvent(typeGovt, numGovt);
 });
 
+// Electricity Helpline
+const heartElectricity = getById("heartIcon-Electricity");
+heartElectricity.addEventListener("click", function () {
+  heartEvent();
+});
+
+const copyBtnElectricity = getById("copy-btn-Electricity");
+const numElectricity = getById("number-Electricity").innerText;
+copyBtnElectricity.addEventListener("click", function (e) {
+  e.preventDefault();
+  copyEvent(numElectricity);
+});
+
+const callBtnElectricity = getById("call-btn-Electricity");
+const typeElectricity = getById("type-Electricity").innerText;
+callBtnElectricity.addEventListener("click", function (e) {
+  e.preventDefault();
+  callEvent(typeElectricity, numElectricity);
+});
+
+// Brac Helpline
+const heartNgo = getById("heartIcon-Ngo");
+heartNgo.addEventListener("click", function () {
+  heartEvent();
+});
+
+const copyBtnNgo = getById("copy-btn-Ngo");
+const numNgo = getById("number-Ngo").innerText;
+copyBtnNgo.addEventListener("click", function (e) {
+  e.preventDefault();
+  copyEvent(numNgo);
+});
+
+const callBtnNgo = getById("call-btn-Ngo");
+const typeNgo = getById("type-Ngo").innerText;
+callBtnNgo.addEventListener("click", function (e) {
+  e.preventDefault();
+  callEvent(typeNgo, numNgo);
+});
+
+// Bangladesh Railway Helpline
+const heartTravel = getById("heartIcon-Travel");
+heartTravel.addEventListener("click", function () {
+  heartEvent();
+});
+
+const copyBtnTravel = getById("copy-btn-Travel");
+const numTravel = getById("number-Travel").innerText;
+copyBtnTravel.addEventListener("click", function (e) {
+  e.preventDefault();
+  copyEvent(numTravel);
+});
+
+const callBtnTravel = getById("call-btn-Travel");
+const typeTravel = getById("type-Travel").innerText;
+callBtnTravel.addEventListener("click", function (e) {
+  e.preventDefault();
+  callEvent(typeTravel, numTravel);
+});
+
