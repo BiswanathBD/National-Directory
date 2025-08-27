@@ -32,7 +32,7 @@
     </style>
   </head>
 
-  <body class="max-w-[1500px] bg-[#41ff6b1a] mx-auto inter">
+  <body class="max-w-[1560px] bg-[#41ff6b1a] mx-auto inter">
 
   <nav class="px-2 md:px-8 bg-white py-4 sm:flex justify-between items-center shadow">
     <div class="flex justify-center items-center gap-2 font-extrabold text-[#006747]">
@@ -43,7 +43,9 @@
       </div>
     </div>
 
-    <div class="flex justify-between gap-2 mt-2 sm:mt-0 sm:gap-4">
+    <hr class="my-4 sm:hidden">
+
+    <div class="flex justify-evenly gap-2 mt-2 sm:mt-0 sm:gap-4">
 
       <button class="flex justify-center items-center font-semibold bg-[#41ff6b1a] px-6 sm:py-3 rounded-full hover:bg-gray-100"><span id="liked" class="font-bold">0</span> <i class="fa-solid fa-heart text-red-500 text-2xl ml-2"></i></button>
 
@@ -70,7 +72,7 @@
         <i id="heartIcon-All" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">National Emergency Number</h4>
-        <p class="text-gray-500">National Emergency</p>
+        <p id="type-All" class="text-gray-500">National Emergency</p>
         <h1 id="Number-All" class=" font-bold text-3xl mt-6">999</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">All</p>
         <div class="grid sm:grid-cols-2 gap-2">
@@ -82,41 +84,41 @@
       <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
         <div class="flex justify-between">
         <img class="w-12 p-2 bg-[#DFEFFF] rounded-2xl" src="./assets/police.png" alt="">
-        <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+        <i id="heartIcon-Police" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">Police Helpline Number</h4>
-        <p class="text-gray-500">Police</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">999</h1>
+        <p id="type-Police" class="text-gray-500">Police</p>
+        <h1 id="number-Police" class=" font-bold text-3xl mt-6">999</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Police</p>
         <div class="grid sm:grid-cols-2 gap-2">
-          <button id="copy-btn-police" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
-          <button id="call-btn-police" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
+          <button id="copy-btn-Police" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button id="call-btn-Police" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
         </div>
       </div>
 
       <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
         <div class="flex justify-between">
         <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/fire-service.png" alt="">
-        <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+        <i id="heartIcon-Fire" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">Fire Service Number</h4>
-        <p class="text-gray-500">Fire Service</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">999</h1>
+        <p id="type-Fire" class="text-gray-500">Fire Service</p>
+        <h1 id="number-Fire" class=" font-bold text-3xl mt-6">999</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Fire</p>
         <div class="grid sm:grid-cols-2 gap-2">
-          <button id="copy-btn-fire" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
-          <button id="call-btn-fire" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
+          <button id="copy-btn-Fire" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button id="call-btn-Fire" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
         </div>
       </div>
 
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
         <div class="flex justify-between">
         <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/ambulance.png" alt="">
-        <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+        <i id="heartIcon-Ambulance" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">Ambulance Service</h4>
-        <p class="text-gray-500">Ambulance</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">1994-999999</h1>
+        <p id="type-Ambulance" class="text-gray-500">Ambulance</p>
+        <h1 id="number-Ambulance" class=" font-bold text-3xl mt-6">1994-999999</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Health</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-Ambulance" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
@@ -127,11 +129,11 @@
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
           <div class="flex justify-between">
           <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/emergency.png" alt="">
-          <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+          <i id="heartIcon-Help" class="fa-solid fa-heart text-gray-300 text-xl"></i>
           </div>
         <h4 class="text-xl font-bold mt-4">Women & Child Helpline</h4>
-        <p class="text-gray-500">Women & Child Helpline</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">109</h1>
+        <p id="type-Help" class="text-gray-500">Women & Child Helpline</p>
+        <h1 id="number-Help" class=" font-bold text-3xl mt-6">109</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Help</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-Help" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
@@ -142,12 +144,12 @@
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
           <div class="flex justify-between">
           <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/emergency.png" alt="">
-          <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+          <i id="heartIcon-Govt" class="fa-solid fa-heart text-gray-300 text-xl"></i>
           </div>
         <h4 class="text-xl font-bold mt-4">Anti-Corruption Helpline</h4>
         <p class="text-gray-500">Anti-Corruption</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">106</h1>
-        <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Govt</p>
+        <h1 id="number-Govt" class=" font-bold text-3xl mt-6">106</h1>
+        <p id="type-Govt" class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Govt</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-Govt" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
           <button id="call-btn-Govt" class="border text-white bg-[#00A63E] p-2 rounded-xl hover:bg-[#00a63dd0]"><i class="fa-solid fa-phone"></i> call</button>
@@ -157,11 +159,11 @@
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
           <div class="flex justify-between">
           <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/emergency.png" alt="">
-          <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+          <i id="heartIcon-Electricity" class="fa-solid fa-heart text-gray-300 text-xl"></i>
           </div>
         <h4 class="text-xl font-bold mt-4">Electricity Helpline</h4>
-        <p class="text-gray-500">Electricity Outage</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">16216</h1>
+        <p id="type-Electricity" class="text-gray-500">Electricity Outage</p>
+        <h1 id="number-Electricity" class=" font-bold text-3xl mt-6">16216</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Electricity</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-Electricity" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
@@ -172,11 +174,11 @@
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
         <div class="flex justify-between">
         <img class="w-12 p-3 bg-[#FFE3E2] rounded-2xl" src="./assets/brac.png" alt="">
-        <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+        <i id="heartIcon-NGO" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">Brac Helpline</h4>
-        <p class="text-gray-500">Brac</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">16445</h1>
+        <p id="type-NGO" class="text-gray-500">Brac</p>
+        <h1 id="number-NGO" class=" font-bold text-3xl mt-6">16445</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">NGO</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-NGO" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
@@ -187,11 +189,11 @@
         <div class="p-6 bg-white rounded-2xl shadow-xl shadow-[#0000000f]">
         <div class="flex justify-between">
         <img class="w-12 p-3 bg-[#fff5e1] rounded-2xl" src="./assets/Bangladesh-Railway.png" alt="">
-        <i id="heart-icon" class="fa-solid fa-heart text-gray-300 text-xl"></i>
+        <i id="heartIcon-Travel" class="fa-solid fa-heart text-gray-300 text-xl"></i>
         </div>
         <h4 class="text-xl font-bold mt-4">Bangladesh Railway Helpline</h4>
-        <p class="text-gray-500">Bangladesh Railway</p>
-        <h1 id="Number" class=" font-bold text-3xl mt-6">163</h1>
+        <p id="type-Travel" class="text-gray-500">Bangladesh Railway</p>
+        <h1 id="number-Travel" class=" font-bold text-3xl mt-6">163</h1>
         <p class="text-gray-500 px-4 py-1 bg-gray-100 w-fit rounded-full mb-5 mt-2">Travel</p>
         <div class="grid sm:grid-cols-2 gap-2">
           <button id="copy-btn-Travel" class="border text-gray-500 p-2 rounded-xl hover:bg-gray-200 hover:text-black"><i class="fa-solid fa-copy"></i> Copy</button>
@@ -210,7 +212,7 @@
            <!-- history section -->
       <section id="call-history-parent" class="mt-5 flex flex-col-reverse gap-2">
 
-      <div id="history-card" style="display: none;" class="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
+      <div id="history-card" class="flex justify-between items-center bg-gray-100 p-3 rounded-lg hidden">
         <div class="">
           <h3 id="history-type" class="font-bold text-lg">Service Type</h3>
           <p id="history-number" class="text-gray-500 text-sm">0000000</p>
