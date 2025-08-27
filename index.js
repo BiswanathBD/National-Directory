@@ -33,7 +33,6 @@ function callEvent(type, num) {
     cloneCallHistory.querySelector("#history-number").innerText = num;
     cloneCallHistory.querySelector("#history-time").innerText =
       new Date().toLocaleTimeString();
-    console.log(cloneCallHistory);
 
     historyParent.appendChild(cloneCallHistory);
   } else {
@@ -121,7 +120,7 @@ callBtnAmbulance.addEventListener("click", function (e) {
   callEvent(typeAmbulance, numAmbulance);
 });
 
-// Women & Child Helpline 
+// Women & Child Helpline
 const heartHelp = getById("heartIcon-Help");
 heartHelp.addEventListener("click", function () {
   heartEvent();
@@ -221,3 +220,10 @@ callBtnTravel.addEventListener("click", function (e) {
   callEvent(typeTravel, numTravel);
 });
 
+// history clear button features
+const clearBtn = getById("clear-btn");
+clearBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const allHistory = document.querySelectorAll(".historyCards");
+  allHistory.forEach((history) => history.remove());
+});
