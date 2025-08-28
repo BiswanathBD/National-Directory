@@ -3,7 +3,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 ### Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
- <br>
+ <br><br>
 #### Answer of question number-1:
 <table>
    <thead>
