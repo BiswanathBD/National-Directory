@@ -44,7 +44,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
   > Step-1 (create an element) : document.createElement("tag-name") <br>
   > Step-2 : get parent by using DOM tool <br>
   > Step 2 (push into mother node) : parent.appendChild("newElement")
-<br><br>
+<br>
 
 3. What is **Event Bubbling** and how does it work?
  ### Answer of question number-3: <br>
