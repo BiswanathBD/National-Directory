@@ -1,10 +1,10 @@
 You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
 
-## Answer the following questions clearly:
+### Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
  <br>
-### Answer of question number-1:
+#### Answer of question number-1:
 <table>
    <thead>
       <tr>
@@ -42,7 +42,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 2. How do you **create and insert a new element into the DOM**?
  <br>
- ### Answer of question number-2 <br>
+ #### Answer of question number-2 <br>
   > Step-1 (create an element) : document.createElement("tag-name") <br>
   > Step-2 : get parent by using DOM tool <br>
   > Step 2 (push into mother node) : parent.appendChild("newElement") <br>
