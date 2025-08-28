@@ -60,9 +60,9 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
  ### Answer of question number-5: <br>
 - `preventDefault()`  
   Stops the default behavior of an element.  
-  -- When you click a form’s submit button, the page normally reloads. `preventDefault()` stops this.
+  -- When you click a form’s submit button, the page normally reloads. preventDefault() stops this.
 
 - `stopPropagation()`  
   Stops the event from bubbling up through parent elements.  
-  -- When an event is triggered on an element, it normally bubbles up to all its parents. `stopPropagation()` prevents this, so parent elements do not receive the event.
+  -- When an event is triggered on an element, it normally bubbles up to all its parents. stopPropagation() prevents this, so parent elements do not receive the event.
    
