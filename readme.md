@@ -48,7 +48,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 3. What is **Event Bubbling** and how does it work?
  ### Answer of question number-3: <br>
-> Event bubbling is a type of propagetion into DOM. When you click a button from your html file that mean you also clicked all of the parent of this button ultil the root (html). in short bubbling is travel from the event element to root step by step.
+> Event bubbling is a type of propagation into DOM. When you click a button from your html file that mean you also clicked all of the parent of this button until the root (html). in short bubbling is travel from the event element to root step by step.
 <br><br>
 
 4. What is **Event Delegation** in JavaScript? Why is it useful?
