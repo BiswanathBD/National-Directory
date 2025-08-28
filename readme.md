@@ -2,8 +2,8 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 ### 6. Answer the following questions clearly:
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-Ans:
+1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**? </ br>
+Answer:
 <table>
    <thead>
       <tr>
