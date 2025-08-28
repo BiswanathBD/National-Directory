@@ -3,7 +3,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 ### 6. Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**? <br>
-Answer:
+Answer of question number-1:
 <table>
    <thead>
       <tr>
@@ -22,6 +22,18 @@ Answer:
          </td>
          <td>
             Use for get single or multiple html element in javascript by using css selector. querySelector for get first element and querySelectorAll for get all element.
+         </td>
+      </tr>
+      <tr>
+         <td>
+            document.getElementById("id name")
+         </td>
+         <td>
+            document.getElementsByClassName("class name")
+         </td>
+         <td>
+            document.querySelector("#id / .class / tag") <br>
+            document.querySelectorAll("#id / .class / tag")
          </td>
       </tr>
    </tbody>
