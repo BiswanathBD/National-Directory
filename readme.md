@@ -41,9 +41,9 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 2. How do you **create and insert a new element into the DOM**?
  <br> <br> Answer of question number-2 <br>
-   > Step-1 (create an element) : document.createElement("tag-name") <br>
-   > Step-2 : get parent by using DOM tool <br>
-   > Step 2 (push into mother node) : parent.appendChild("newElement") <br>
+> Step-1 (create an element) : document.createElement("tag-name") <br>
+> Step-2 : get parent by using DOM tool <br>
+> Step 2 (push into mother node) : parent.appendChild("newElement") <br>
 
 4. What is **Event Bubbling** and how does it work?
 
