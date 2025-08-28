@@ -4,6 +4,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 Ans:
+<table>
 <tr>
     <td>
         getElementById
@@ -20,6 +21,7 @@ Ans:
         Use for get a single/multiple html element in javascript by class name
     </td>
 </tr>
+</table>
 
 3. How do you **create and insert a new element into the DOM**?
 4. What is **Event Bubbling** and how does it work?
