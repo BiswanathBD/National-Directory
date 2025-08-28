@@ -5,22 +5,22 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 Ans:
 <table>
-<tr>
-    <td>
+<td>
+    <tr>
         getElementById
-    </td>
-    <td>
+    </tr>
+    <tr>
         Use for get a single html element in javascript by id name
-    </td>
-</tr>
-<tr>
-    <td>
+    </tr>
+</td>
+<td>
+    <tr>
         getElementsByClassName
-    </td>
-    <td>
+    </tr>
+    <tr>
         Use for get a single/multiple html element in javascript by class name
-    </td>
-</tr>
+    </tr>
+</td>
 </table>
 
 3. How do you **create and insert a new element into the DOM**?
