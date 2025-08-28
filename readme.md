@@ -59,7 +59,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
  <br><br>
- ### Answer of question number-4: <br>
+ ### Answer of question number-5: <br>
  > preventDefault() stop default funtionalitis. Example- when you click button the page automatically reloded, preventDefault() stop this. <br>
  > stopPropagation() stop bubbling process. Example- if you triggered and element the bubbling propagate triggered element to root via it's all parent. stopPropagation() stop this propagation, so the event does not continue traveling to parent elements.
    
