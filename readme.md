@@ -40,14 +40,17 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 </table>
 
 2. How do you **create and insert a new element into the DOM**?
+ <br> <br> Answer of question number-2
+Step-1 (create an element) : document.createElement("tag-name")
+Step-2 : get parent by using DOM tool
+Step 2 (push into mother node) : parent.appendChild("newElement")
+
+4. What is **Event Bubbling** and how does it work?
 
 
-3. What is **Event Bubbling** and how does it work?
+5. What is **Event Delegation** in JavaScript? Why is it useful?
 
 
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-
-
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+6. What is the difference between **preventDefault() and stopPropagation()** methods?
 
    
