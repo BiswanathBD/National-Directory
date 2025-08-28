@@ -4,24 +4,13 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 Ans:
-<table>
-<td>
-    <tr>
-        getElementById
-    </tr>
-    <tr>
-        Use for get a single html element in javascript by id name
-    </tr>
-</td>
-<td>
-    <tr>
-        getElementsByClassName
-    </tr>
-    <tr>
-        Use for get a single/multiple html element in javascript by class name
-    </tr>
-</td>
-</table>
+| Method | Input | Returns | Live/Static | Notes |
+|--------|-------|---------|-------------|-------|
+| `getElementById` | ID (`"myId"`) | Single element | N/A | Fastest, IDs must be unique |
+| `getElementsByClassName` | Class (`"myClass"`) | HTMLCollection | Live | Auto-updates if DOM changes, loop needed |
+| `querySelector` | CSS selector (`"#id"`, `.class`, `div > p`) | First element | Static | Flexible, supports any CSS selector |
+| `querySelectorAll` | CSS selector | NodeList | Static | Supports `forEach` loop, does not auto-update |
+
 
 3. How do you **create and insert a new element into the DOM**?
 4. What is **Event Bubbling** and how does it work?
