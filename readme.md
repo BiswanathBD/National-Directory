@@ -37,21 +37,24 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
          </td>
       </tr>
    </tbody>
-</table><br>
+</table><br><br>
 
 2. How do you **create and insert a new element into the DOM**?
  ### Answer of question number-2: <br>
   > Step-1 (create an element) : document.createElement("tag-name") <br>
   > Step-2 : get parent by using DOM tool <br>
-  > Step 2 (push into mother node) : parent.appendChild("newElement") <br>
+  > Step 2 (push into mother node) : parent.appendChild("newElement")
+<br><br>
 
 3. What is **Event Bubbling** and how does it work?
  ### Answer of question number-3: <br>
 > Event bubbling is a type of propagetion into DOM. When you click a button from your html file that mean you also clicked all of the parent of this button ultil the root (html). in short bubbling is travel from the event element to root step by step.
+<br><br>
 
 4. What is **Event Delegation** in JavaScript? Why is it useful?
  ### Answer of question number-4: <br>
  > Event Delegation is a common method to handle events for multiple child elements by using a single event on parent. It use the event bubbling from triggered child to parent to another child. This helps keep code minimal, makes the website lighter, and easier to debug. If you add or remove child elements dynamically, the parent event will still handle them automatically.
+<br><br>
 
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
  ### Answer of question number-5: <br>
