@@ -15,6 +15,7 @@ function copyEvent(num) {
   navigator.clipboard.writeText(num);
   const newCopiedNum = copiedNum + 1;
   document.getElementById("copied-num").innerText = newCopiedNum;
+  alert(num + " is Copied");
 }
 // call function
 function callEvent(type, num) {
@@ -39,7 +40,6 @@ function callEvent(type, num) {
     alert("❌ You don't have enough balance");
   }
 }
-
 // national emergency features
 const heartAll = getById("heartIcon-All");
 heartAll.addEventListener("click", function () {
